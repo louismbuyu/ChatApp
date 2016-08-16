@@ -12,6 +12,12 @@
 		872CE6F41D5C968C00B311CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872CE6F21D5C968C00B311CC /* Main.storyboard */; };
 		872CE6F61D5C968C00B311CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872CE6F51D5C968C00B311CC /* Assets.xcassets */; };
 		872CE6F91D5C968C00B311CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872CE6F71D5C968C00B311CC /* LaunchScreen.storyboard */; };
+		872CE7011D5C9C3A00B311CC /* RecentChats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE7001D5C9C3A00B311CC /* RecentChats.swift */; };
+		872CE7031D5C9C4D00B311CC /* RecentChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE7021D5C9C4D00B311CC /* RecentChatCell.swift */; };
+		872CE7051D5C9EA700B311CC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE7041D5C9EA700B311CC /* Model.swift */; };
+		872CE7071D5CBBD300B311CC /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE7061D5CBBD300B311CC /* ChatVC.swift */; };
+		872CE7091D5CBBF900B311CC /* UserOneChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE7081D5CBBF900B311CC /* UserOneChatCell.swift */; };
+		872CE70B1D5CBC1700B311CC /* UserTwoChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872CE70A1D5CBC1700B311CC /* UserTwoChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		872CE6F51D5C968C00B311CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		872CE6F81D5C968C00B311CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872CE6FA1D5C968C00B311CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872CE7001D5C9C3A00B311CC /* RecentChats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentChats.swift; sourceTree = "<group>"; };
+		872CE7021D5C9C4D00B311CC /* RecentChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentChatCell.swift; sourceTree = "<group>"; };
+		872CE7041D5C9EA700B311CC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		872CE7061D5CBBD300B311CC /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		872CE7081D5CBBF900B311CC /* UserOneChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserOneChatCell.swift; sourceTree = "<group>"; };
+		872CE70A1D5CBC1700B311CC /* UserTwoChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTwoChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			children = (
 				872CE6EE1D5C968C00B311CC /* AppDelegate.swift */,
 				872CE6F01D5C968C00B311CC /* ViewController.swift */,
+				872CE7001D5C9C3A00B311CC /* RecentChats.swift */,
+				872CE7021D5C9C4D00B311CC /* RecentChatCell.swift */,
+				872CE7061D5CBBD300B311CC /* ChatVC.swift */,
+				872CE7081D5CBBF900B311CC /* UserOneChatCell.swift */,
+				872CE70A1D5CBC1700B311CC /* UserTwoChatCell.swift */,
+				872CE7041D5C9EA700B311CC /* Model.swift */,
 				872CE6F21D5C968C00B311CC /* Main.storyboard */,
 				872CE6F51D5C968C00B311CC /* Assets.xcassets */,
 				872CE6F71D5C968C00B311CC /* LaunchScreen.storyboard */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872CE7071D5CBBD300B311CC /* ChatVC.swift in Sources */,
+				872CE70B1D5CBC1700B311CC /* UserTwoChatCell.swift in Sources */,
+				872CE7051D5C9EA700B311CC /* Model.swift in Sources */,
+				872CE7031D5C9C4D00B311CC /* RecentChatCell.swift in Sources */,
 				872CE6F11D5C968C00B311CC /* ViewController.swift in Sources */,
+				872CE7091D5CBBF900B311CC /* UserOneChatCell.swift in Sources */,
 				872CE6EF1D5C968C00B311CC /* AppDelegate.swift in Sources */,
+				872CE7011D5C9C3A00B311CC /* RecentChats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,7 @@
 				872CE6FF1D5C968C00B311CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
